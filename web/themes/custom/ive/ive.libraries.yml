@@ -1,0 +1,35 @@
+toolbar:
+  version: VERSION
+  css:
+    theme:
+      css/toolbar.css: {}
+four-column:
+  version: version
+  css:
+   theme:
+      layouts/layout_fourcolumn/layout_fourcolumn.css : {}
+ive:
+  version: VERSION
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Jomolhari&display=swap:  {type: external}
+      css/ive.css: {}
+      css/wysiwyg.css :  {} 
+  js:
+    js/ive.js: {} 
+  dependencies:
+    - core/jquery
+    - core/drupa
+    - core/drupalSettings
+
+tabs:
+  version: VERSION
+  js:
+    js/ive.js: {}
+  dependencies:
+    - core/jquery.ui.tabs
+    - core/drupal
+    - core/drupalSettings  
+
+
+     

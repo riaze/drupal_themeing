@@ -1,0 +1,5 @@
+.toolbar .toolbar-bar {
+    color: #ddd;
+    background-color: rgba(243, 3, 3, 0.774);
+    box-shadow: -10px 0 3px 1px rgba(0, 0, 0, 0.3333);
+}

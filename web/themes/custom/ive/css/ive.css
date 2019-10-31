@@ -1,0 +1,58 @@
+body{
+  font-family: 'Jomolhari', serif!important;
+}
+.site-branding__name {
+    font-size: 2rem;
+}
+ 
+.region-header, .region-header a, .region-header li a.is-active, .region-header .site-branding__text, .region-header .site-branding, .region-header .site-branding__text a, .region-header .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
+  color:orange;
+}
+ 
+#header {
+/*  background-color:#fff;
+  background-image:none;*/
+  background: #fff;
+}
+ 
+.path-frontpage .main-content .node--view-mode-teaser h2 {
+  font-size: 2rem;
+  font-family:'Impact';
+}
+ 
+.path-frontpage .main-content .node--view-mode-teaser h2 a {
+  color:orange;
+}
+ 
+.sidebar .block {
+  background: transparent;
+  border:0;
+}
+ 
+.sidebar .block > h2 {
+  color:orange;
+  text-transform: uppercase;
+  font-style:italic;
+  border-bottom:1px solid orange;
+}
+.bootom_Wide{
+    width: 100%;
+}
+
+caption{
+  border : 1px solid brown;
+  border-radius: 5px;
+  background-color: coral;
+  
+}
+.field__label{
+  font-size: 20px;
+}
+
+.external-links::before{
+  content: url(../images/external-link.gif);
+  display : inline-block;
+  height : 16px;
+  width : 16px;
+
+}

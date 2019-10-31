@@ -1,0 +1,17 @@
+layout_fourcolumn:
+  label: 'four_column'
+  path: layouts/layout_fourcolumn
+  template: layout_fourcolumn
+  library: ive/four-column
+  category: 'ive'
+  icon: four-square.png
+  default_region: top
+  regions:
+    top:
+      label: top
+    first:
+      label: first  
+    second:
+      label: second  
+    bottom:
+      label: bottom   
